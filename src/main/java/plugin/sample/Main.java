@@ -69,7 +69,7 @@ public final class Main extends JavaPlugin implements Listener {
       }
 
       Path path=Path.of("firework.txt");
-      Files.writeString(path,"花火打ち上げ");
+      Files.writeString(path,"たーまやー");
       player.sendMessage(Files.readString(path));
 
     }
